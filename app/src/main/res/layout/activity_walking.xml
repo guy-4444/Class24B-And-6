@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".steps.Activity_Walking">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/walking_LBL_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="60sp"
+        android:textColor="#232323"
+        android:text="---"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:id="@+id/walking_BTN_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/walking_LBL_info"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        android:text="start"/>
+
+</RelativeLayout>
